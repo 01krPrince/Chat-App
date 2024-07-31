@@ -1,0 +1,50 @@
+name: chat_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.3+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/img.png
+    - assets/img/img_1.png
+    - assets/img/img_2.png
+    - assets/img/img_3.png
+    - assets/img/img_4.png
+    - assets/img/img_5.png
+    - assets/img/img_6.png
+    - assets/img/img_7.png
+    - assets/img/img_8.png
+    - assets/img/img_9.png
+    - assets/img/img_10.png
+    - assets/img/img_2.png
+    - assets/img/img_3.png
+    - assets/img/img_4.png
+
+#  fonts:
+#    - family: Montserrat
+#      fonts:
+#        - asset: assets/font/Montserrat-Regular.ttf
+#        - asset: assets/font/Montserrat-Bold.ttf
+#          weight: 700
+#    - family: Quicksand
+#      fonts:
+#        - asset: assets/font/Quicksand-Regular.ttf
+#        - asset: assets/font/Quicksand-Bold.ttf
+#          weight: 700
